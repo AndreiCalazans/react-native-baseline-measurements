@@ -26,11 +26,6 @@ const measureObserver = new PerformanceObserver((list, _) => {
 measureObserver.observe({type: 'measure', buffered: true});
 
 new PerformanceObserver((list, _) => {
-  console.log('**native**');
-  list.getEntries().forEach(entry => {
-    console.log(`marker: ${entry.name} took ${entry.duration}ms`);
-  });
-
   if (list.getEntries().find(entry => entry.name === 'runJsBundleEnd')) {
     // nativeLuanch - how long it takes to initialize the native context
     // this includes native module initialization + the full React context.
@@ -54,12 +49,33 @@ function HomeScreen() {
 }
 
 const Stack = createStackNavigator();
+const StackTwo = createStackNavigator();
+const StackThree = createStackNavigator();
+const StackFour = createStackNavigator();
+
+const Four = () => (
+  <StackFour.Navigator>
+    <Stack.Screen name="Home" component={HomeScreen} />
+  </StackFour.Navigator>
+);
+
+const Three = () => (
+  <StackThree.Navigator headerMode="none">
+    <Stack.Screen name="Home" component={Four} />
+  </StackThree.Navigator>
+);
+
+const Two = () => (
+  <StackTwo.Navigator headerMode="none">
+    <Stack.Screen name="Home" component={Three} />
+  </StackTwo.Navigator>
+);
 
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Navigator headerMode="none">
+        <Stack.Screen name="Home" component={Two} />
       </Stack.Navigator>
     </NavigationContainer>
   );
