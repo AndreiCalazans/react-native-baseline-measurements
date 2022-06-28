@@ -1,0 +1,47 @@
+Navigation V6 Deeply Nested No RAM 
+
+
+  'marker: home took 421.15283400192857ms',
+  'marker: nativeLaunch took 44ms',
+  'marker: runJsBundle took 491ms',
+  'marker: detail took 44.50333299860358ms',
+
+  'marker: home took 347.2635000012815ms',
+  'marker: nativeLaunch took 38ms',
+  'marker: runJsBundle took 419ms',
+  'marker: detail took 80.33970800042152ms',
+
+  'marker: home took 350.1411250010133ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 418ms',
+  'marker: detail took 42.509124998003244ms',
+
+  'marker: home took 346.5657089985907ms',
+  'marker: nativeLaunch took 37ms',
+  'marker: runJsBundle took 413ms',
+  'marker: detail took 50.330041002482176ms',
+
+  'marker: home took 349.1287499964237ms',
+  'marker: nativeLaunch took 39ms',
+  'marker: runJsBundle took 429ms',
+  'marker: detail took 41.73091699928045ms',
+
+  'marker: home took 350.3911250010133ms',
+  'marker: nativeLaunch took 46ms',
+  'marker: runJsBundle took 423ms',
+  'marker: detail took 41.984333999454975ms',
+
+  'marker: home took 348.39725000038743ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 419ms',
+  'marker: detail took 40.979665998369455ms',
+
+  'marker: home took 346.80550000071526ms',
+  'marker: nativeLaunch took 37ms',
+  'marker: runJsBundle took 416ms',
+  'marker: detail took 42.14570799842477ms',
+
+  'marker: home took 348.61837599799037ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 421ms',
+  'marker: detail took 41.66370799764991ms'

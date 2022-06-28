@@ -68,27 +68,38 @@ function Detail() {
 }
 
 const Stack = createNativeStackNavigator();
+const StackTwo = createNativeStackNavigator();
+const StackThree = createNativeStackNavigator();
+const StackFour = createNativeStackNavigator();
 
-const MultipleScreens = Array.from({length: 100}).map((_, idx) => (
-  <Stack.Screen
-    key={`Screen_${idx + 1}`}
-    options={{headerShown: false}}
-    name={`Screen_${idx + 1}`}
-    component={Detail}
-  />
-));
+const Four = () => (
+  <StackFour.Navigator>
+    <Stack.Screen name="Home" component={HomeScreen} />
+    <Stack.Screen
+      options={{headerShown: false}}
+      name="Detail"
+      component={Detail}
+    />
+  </StackFour.Navigator>
+);
+
+const Three = () => (
+  <StackThree.Navigator screenOptions={{headerShown: false}}>
+    <Stack.Screen name="Home" component={Four} />
+  </StackThree.Navigator>
+);
+
+const Two = () => (
+  <StackTwo.Navigator headerMode="none" screenOptions={{headerShown: false}}>
+    <Stack.Screen name="Home" component={Three} />
+  </StackTwo.Navigator>
+);
 
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen
-          options={{headerShown: false}}
-          name="Detail"
-          component={Detail}
-        />
-        {MultipleScreens}
+      <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Screen name="Home" component={Two} />
       </Stack.Navigator>
     </NavigationContainer>
   );
