@@ -68,34 +68,17 @@ function Detail() {
 }
 
 const Stack = createStackNavigator();
-const StackTwo = createStackNavigator();
-const StackThree = createStackNavigator();
-const StackFour = createStackNavigator();
-
-const Four = () => (
-  <StackFour.Navigator>
-    <Stack.Screen name="Home" component={HomeScreen} />
-    <Stack.Screen name="Detail" component={Detail} />
-  </StackFour.Navigator>
-);
-
-const Three = () => (
-  <StackThree.Navigator headerMode="none">
-    <Stack.Screen name="Home" component={Four} />
-  </StackThree.Navigator>
-);
-
-const Two = () => (
-  <StackTwo.Navigator headerMode="none">
-    <Stack.Screen name="Home" component={Three} />
-  </StackTwo.Navigator>
-);
 
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator headerMode="none">
-        <Stack.Screen name="Home" component={Two} />
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen
+          options={{headerShown: false}}
+          name="Detail"
+          component={Detail}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
