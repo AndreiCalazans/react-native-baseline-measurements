@@ -7,7 +7,7 @@
  */
 import 'react-native-gesture-handler';
 import React, {useEffect} from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, Button} from 'react-native';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
@@ -36,7 +36,7 @@ new PerformanceObserver((list, _) => {
   }
 }).observe({type: 'react-native-mark', buffered: true});
 
-function HomeScreen() {
+function HomeScreen({navigation}) {
   useEffect(() => {
     performance.measure('home', 'app_file');
   }, []);
@@ -44,6 +44,25 @@ function HomeScreen() {
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Text>Home Screen</Text>
+      <Button
+        title="detail"
+        onPress={() => {
+          performance.mark('home_navigate');
+          navigation.navigate('Detail');
+        }}
+      />
+    </View>
+  );
+}
+
+function Detail() {
+  useEffect(() => {
+    performance.measure('detail', 'home_navigate');
+  }, []);
+
+  return (
+    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <Text>Detail Screen</Text>
     </View>
   );
 }
@@ -56,6 +75,7 @@ const StackFour = createStackNavigator();
 const Four = () => (
   <StackFour.Navigator>
     <Stack.Screen name="Home" component={HomeScreen} />
+    <Stack.Screen name="Detail" component={Detail} />
   </StackFour.Navigator>
 );
 
