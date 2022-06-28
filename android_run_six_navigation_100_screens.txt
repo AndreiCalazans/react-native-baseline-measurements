@@ -1,0 +1,47 @@
+Navigation Flat Navigator With 100 screens (RAM Disabled)
+
+	'marker: home took 441.05424999818206ms',
+  'marker: nativeLaunch took 43ms',
+  'marker: runJsBundle took 507ms',
+  'marker: detail took 63.181292001158ms',
+
+  'marker: home took 435.8652500025928ms',
+  'marker: nativeLaunch took 39ms',
+  'marker: runJsBundle took 493ms',
+  'marker: detail took 63.88179200142622ms',
+
+  'marker: home took 434.9332920014858ms',
+  'marker: nativeLaunch took 39ms',
+  'marker: runJsBundle took 492ms',
+  'marker: detail took 63.05704199895263ms',
+
+  'marker: home took 436.1947499997914ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 493ms',
+  'marker: detail took 63.63933299854398ms',
+
+  'marker: home took 435.9833340011537ms',
+  'marker: nativeLaunch took 40ms',
+  'marker: runJsBundle took 495ms',
+  'marker: detail took 63.57254100218415ms',
+
+  'marker: home took 441.2079169973731ms',
+  'marker: nativeLaunch took 37ms',
+  'marker: runJsBundle took 490ms',
+  'marker: detail took 62.61058299988508ms',
+
+  'marker: home took 437.4726670011878ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 501ms',
+  'marker: detail took 62.738624997437ms',
+
+  'marker: home took 434.14391699805856ms',
+  'marker: nativeLaunch took 39ms',
+  'marker: runJsBundle took 490ms',
+  'marker: detail took 62.895583998411894ms',
+
+  'marker: home took 436.37475000321865ms',
+  'marker: nativeLaunch took 38ms',
+  'marker: runJsBundle took 492ms',
+  'marker: detail took 63.15708399936557ms'
+

@@ -69,6 +69,15 @@ function Detail() {
 
 const Stack = createStackNavigator();
 
+const MultipleScreens = Array.from({length: 100}).map((_, idx) => (
+  <Stack.Screen
+    key={`Screen_${idx + 1}`}
+    options={{headerShown: false}}
+    name={`Screen_${idx + 1}`}
+    component={Detail}
+  />
+));
+
 function App() {
   return (
     <NavigationContainer>
@@ -79,6 +88,7 @@ function App() {
           name="Detail"
           component={Detail}
         />
+        {MultipleScreens}
       </Stack.Navigator>
     </NavigationContainer>
   );
