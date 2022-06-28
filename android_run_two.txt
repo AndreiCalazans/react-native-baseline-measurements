@@ -1,0 +1,38 @@
+RAM Enabled
+
+
+'marker: home took 519.5528340004385ms',
+'marker: nativeLaunch took 48ms',
+'marker: runJsBundle took 501ms',
+
+'marker: home took 504.4826250001788ms',
+'marker: nativeLaunch took 37ms',
+'marker: runJsBundle took 477ms',
+
+'marker: home took 508.2994999997318ms',
+'marker: nativeLaunch took 38ms',
+'marker: runJsBundle took 494ms',
+
+'marker: home took 500.7828330025077ms',
+'marker: nativeLaunch took 37ms',
+'marker: runJsBundle took 477ms',
+
+'marker: home took 628.9019999988377ms',
+'marker: nativeLaunch took 36ms',
+'marker: runJsBundle took 565ms',
+
+'marker: home took 652.0775410011411ms',
+'marker: nativeLaunch took 37ms',
+'marker: runJsBundle took 572ms',
+
+'marker: home took 605.9341670013964ms',
+'marker: nativeLaunch took 46ms',
+'marker: runJsBundle took 596ms',
+
+'marker: home took 514.7762919999659ms',
+'marker: nativeLaunch took 38ms',
+'marker: runJsBundle took 491ms',
+
+'marker: home took 501.4126260019839ms',
+'marker: nativeLaunch took 35ms',
+'marker: runJsBundle took 474ms'

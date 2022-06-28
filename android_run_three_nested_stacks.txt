@@ -1,0 +1,38 @@
+	4 Level Nested Stack (RAM Enabled)
+
+
+  'marker: home took 636.5216669999063ms',
+  'marker: nativeLaunch took 48ms',
+  'marker: runJsBundle took 499ms',
+
+  'marker: home took 606.9459590017796ms',
+  'marker: nativeLaunch took 41ms',
+  'marker: runJsBundle took 489ms',
+
+  'marker: home took 599.5480839982629ms',
+  'marker: nativeLaunch took 39ms',
+  'marker: runJsBundle took 479ms',
+
+  'marker: home took 625.209291998297ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 501ms',
+
+  'marker: home took 603.9221250005066ms',
+  'marker: nativeLaunch took 37ms',
+  'marker: runJsBundle took 482ms',
+
+  'marker: home took 604.9765000008047ms',
+  'marker: nativeLaunch took 42ms',
+  'marker: runJsBundle took 485ms',
+
+  'marker: home took 607.3195409998298ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 485ms',
+
+  'marker: home took 604.3520420007408ms',
+  'marker: nativeLaunch took 37ms',
+  'marker: runJsBundle took 477ms',
+
+  'marker: home took 604.1137080006301ms',
+  'marker: nativeLaunch took 37ms',
+  'marker: runJsBundle took 478ms'

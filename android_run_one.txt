@@ -1,0 +1,39 @@
+Default
+
+
+  'marker: home took 417.7419999986887ms',
+  'marker: nativeLaunch took 41ms',
+  'marker: runJsBundle took 510ms',
+
+  'marker: home took 410.5269589982927ms',
+  'marker: nativeLaunch took 39ms',
+  'marker: runJsBundle took 497ms',
+
+  'marker: home took 413.46512499824166ms',
+  'marker: nativeLaunch took 38ms',
+  'marker: runJsBundle took 492ms',
+
+  'marker: home took 420.91733299940825ms',
+  'marker: nativeLaunch took 38ms',
+  'marker: runJsBundle took 495ms',
+
+  'marker: home took 417.12595899775624ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 486ms',
+
+  'marker: home took 412.33545799925923ms',
+  'marker: nativeLaunch took 37ms',
+  'marker: runJsBundle took 483ms',
+
+  'marker: home took 415.60129199922085ms',
+  'marker: nativeLaunch took 37ms',
+  'marker: runJsBundle took 481ms',
+
+  'marker: home took 414.17145799845457ms',
+  'marker: nativeLaunch took 35ms',
+  'marker: runJsBundle took 483ms',
+
+  'marker: home took 414.27562499791384ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 497ms'
+
