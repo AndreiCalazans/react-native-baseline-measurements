@@ -1,0 +1,46 @@
+Navigation V6 Flat Navigator With 100 screens 
+
+  'marker: home took 330.2251249998808ms',
+  'marker: nativeLaunch took 44ms',
+  'marker: runJsBundle took 458ms',
+  'marker: detail took 32.38045899942517ms',
+
+  'marker: home took 327.53895799815655ms',
+  'marker: nativeLaunch took 40ms',
+  'marker: runJsBundle took 425ms',
+  'marker: detail took 32.67962500080466ms',
+
+  'marker: home took 327.5591249987483ms',
+  'marker: nativeLaunch took 47ms',
+  'marker: runJsBundle took 421ms',
+  'marker: detail took 32.68187500163913ms',
+
+  'marker: home took 327.98674999922514ms',
+  'marker: nativeLaunch took 39ms',
+  'marker: runJsBundle took 428ms',
+  'marker: detail took 31.595417000353336ms',
+
+  'marker: home took 329.02675000205636ms',
+  'marker: nativeLaunch took 37ms',
+  'marker: runJsBundle took 443ms',
+  'marker: detail took 32.511333998292685ms',
+
+  'marker: home took 328.6372499987483ms',
+  'marker: nativeLaunch took 39ms',
+  'marker: runJsBundle took 424ms',
+  'marker: detail took 70.54441599920392ms',
+
+  'marker: home took 328.1687090024352ms',
+  'marker: nativeLaunch took 38ms',
+  'marker: runJsBundle took 420ms',
+  'marker: detail took 31.65920799970627ms',
+
+  'marker: home took 330.19716700166464ms',
+  'marker: nativeLaunch took 43ms',
+  'marker: runJsBundle took 419ms',
+  'marker: detail took 31.629875000566244ms',
+
+  'marker: home took 328.9049589969218ms',
+  'marker: nativeLaunch took 36ms',
+  'marker: runJsBundle took 434ms',
+  'marker: detail took 31.628084000200033ms'

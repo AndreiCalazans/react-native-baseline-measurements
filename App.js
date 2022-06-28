@@ -10,7 +10,7 @@ import React, {useEffect} from 'react';
 import {View, Text, Button} from 'react-native';
 
 import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import performance, {PerformanceObserver} from 'react-native-performance';
 
@@ -67,7 +67,7 @@ function Detail() {
   );
 }
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 const MultipleScreens = Array.from({length: 100}).map((_, idx) => (
   <Stack.Screen
